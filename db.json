@@ -1,0 +1,1552 @@
+{
+  "CONFIG": [
+    {
+      "Variable": "RondaActual",
+      "Valor": "Fase de Grupos"
+    },
+    {
+      "Variable": "FechaInicioPronosticos",
+      "Valor": "2026-06-01T00:00:00Z"
+    },
+    {
+      "Variable": "FechaBloqueoRonda",
+      "Valor": "2026-06-18T02:59:00.000Z"
+    },
+    {
+      "Variable": "FechaBloqueoClasificados",
+      "Valor": "2026-06-18T02:59:00.000Z"
+    },
+    {
+      "Variable": "EstadoSistema",
+      "Valor": "Activo"
+    },
+    {
+      "Variable": "GoogleAppsScriptUrl",
+      "Valor": "https://script.google.com/macros/s/AKfycbwVzLdqlNArv7l6sQ5npXc15BpPPUP2mn5aMbGl-Ya44fwZ4YLBQZ-MsEtG07OwpLBU/exec"
+    },
+    {
+      "Variable": "ResultadoCampeon",
+      "Valor": ""
+    },
+    {
+      "Variable": "ResultadoSubcampeon",
+      "Valor": ""
+    },
+    {
+      "Variable": "ResultadoGoleador",
+      "Valor": ""
+    },
+    {
+      "Variable": "ResultadoMejorJugador",
+      "Valor": ""
+    },
+    {
+      "Variable": "ResultadoMejorArquero",
+      "Valor": ""
+    },
+    {
+      "Variable": "GoogleSheetID",
+      "Valor": "1e0u60qVoxKuTZPETd5uTrHZTPX0wpt23K_LXYEKDkzg"
+    },
+    {
+      "Variable": "FootballApiProvider",
+      "Valor": "football-data"
+    },
+    {
+      "Variable": "FootballApiKey",
+      "Valor": "a727a7bca89e4f62a7c5472e1292b2e6"
+    },
+    {
+      "Variable": "FootballLeagueID",
+      "Valor": "WC"
+    },
+    {
+      "Variable": "FootballSeason",
+      "Valor": 2026
+    }
+  ],
+  "USUARIOS": [
+    {
+      "ID": "usr_admin",
+      "Nombre": "Daniel",
+      "Apellido": "Fernández",
+      "Email": "admin@prode2026.com",
+      "Password": "admin",
+      "FechaRegistro": "2026-06-08T12:00:00Z",
+      "Estado": "Activo"
+    },
+    {
+      "ID": "usr_1781139495285",
+      "Nombre": "Juan",
+      "Apellido": "Bruno",
+      "Email": "juanmartinbruno36@gmail.com",
+      "Password": "prodemundial",
+      "FechaRegistro": "2026-06-11T00:58:15.285Z",
+      "Estado": "Activo"
+    }
+  ],
+  "PARTIDOS": [
+    {
+      "MatchID": "fd_537327",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "México",
+      "EquipoB": "Sudáfrica",
+      "FechaHora": "2026-06-11T19:00:00Z",
+      "Estadio": "Estadio Azteca, Ciudad de México",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537328",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Corea del Sur",
+      "EquipoB": "Chequia",
+      "FechaHora": "2026-06-12T02:00:00Z",
+      "Estadio": "Estadio Azteca, Ciudad de México",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537333",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Canadá",
+      "EquipoB": "Bosnia",
+      "FechaHora": "2026-06-12T19:00:00Z",
+      "Estadio": "Estadio BMO Field, Toronto",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537345",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "EE.UU.",
+      "EquipoB": "Paraguay",
+      "FechaHora": "2026-06-13T01:00:00Z",
+      "Estadio": "Estadio SoFi, Los Ángeles",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537334",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Qatar",
+      "EquipoB": "Suiza",
+      "FechaHora": "2026-06-13T19:00:00Z",
+      "Estadio": "Estadio Hard Rock, Miami",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537339",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Brasil",
+      "EquipoB": "Marruecos",
+      "FechaHora": "2026-06-13T22:00:00Z",
+      "Estadio": "Estadio AT&T, Dallas",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537340",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Haití",
+      "EquipoB": "Escocia",
+      "FechaHora": "2026-06-14T01:00:00Z",
+      "Estadio": "Estadio Lumen Field, Seattle",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537346",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Australia",
+      "EquipoB": "Turquía",
+      "FechaHora": "2026-06-14T04:00:00Z",
+      "Estadio": "Estadio Gillette, Boston",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537351",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Alemania",
+      "EquipoB": "Curazao",
+      "FechaHora": "2026-06-14T17:00:00Z",
+      "Estadio": "Estadio BBVA, Monterrey",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537357",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Países Bajos",
+      "EquipoB": "Japón",
+      "FechaHora": "2026-06-14T20:00:00Z",
+      "Estadio": "Estadio AT&T, Dallas",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537352",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Costa de Marfil",
+      "EquipoB": "Ecuador",
+      "FechaHora": "2026-06-14T23:00:00Z",
+      "Estadio": "Estadio BMO Field, Toronto",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537358",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Suecia",
+      "EquipoB": "Túnez",
+      "FechaHora": "2026-06-15T02:00:00Z",
+      "Estadio": "Estadio Akron, Guadalajara",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537369",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "España",
+      "EquipoB": "Cabo Verde",
+      "FechaHora": "2026-06-15T16:00:00Z",
+      "Estadio": "Estadio Arrowhead, Kansas City",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537363",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Bélgica",
+      "EquipoB": "Egipto",
+      "FechaHora": "2026-06-15T19:00:00Z",
+      "Estadio": "Estadio Lumen Field, Seattle",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537370",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Arabia Saudita",
+      "EquipoB": "Uruguay",
+      "FechaHora": "2026-06-15T22:00:00Z",
+      "Estadio": "Estadio BMO Field, Toronto",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537364",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Irán",
+      "EquipoB": "Nueva Zelanda",
+      "FechaHora": "2026-06-16T01:00:00Z",
+      "Estadio": "Estadio Hard Rock, Miami",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537391",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Francia",
+      "EquipoB": "Senegal",
+      "FechaHora": "2026-06-16T19:00:00Z",
+      "Estadio": "Estadio BC Place, Vancouver",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537392",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Irak",
+      "EquipoB": "Noruega",
+      "FechaHora": "2026-06-16T22:00:00Z",
+      "Estadio": "Estadio Arrowhead, Kansas City",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537397",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Argentina",
+      "EquipoB": "Argelia",
+      "FechaHora": "2026-06-17T01:00:00Z",
+      "Estadio": "Estadio BMO Field, Toronto",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537398",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Austria",
+      "EquipoB": "Jordania",
+      "FechaHora": "2026-06-17T04:00:00Z",
+      "Estadio": "Estadio Akron, Guadalajara",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537403",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Portugal",
+      "EquipoB": "R.D. Congo",
+      "FechaHora": "2026-06-17T17:00:00Z",
+      "Estadio": "Estadio Lincoln Financial Field, Filadelfia",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537409",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Inglaterra",
+      "EquipoB": "Croacia",
+      "FechaHora": "2026-06-17T20:00:00Z",
+      "Estadio": "Estadio Mercedes-Benz, Atlanta",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537410",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Ghana",
+      "EquipoB": "Panamá",
+      "FechaHora": "2026-06-17T23:00:00Z",
+      "Estadio": "Estadio Azteca, Ciudad de México",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537404",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Uzbekistán",
+      "EquipoB": "Colombia",
+      "FechaHora": "2026-06-18T02:00:00Z",
+      "Estadio": "Estadio Azteca, Ciudad de México",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537329",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Chequia",
+      "EquipoB": "Sudáfrica",
+      "FechaHora": "2026-06-18T16:00:00Z",
+      "Estadio": "Estadio SoFi, Los Ángeles",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537335",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Suiza",
+      "EquipoB": "Bosnia",
+      "FechaHora": "2026-06-18T19:00:00Z",
+      "Estadio": "Estadio Lumen Field, Seattle",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537336",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Canadá",
+      "EquipoB": "Qatar",
+      "FechaHora": "2026-06-18T22:00:00Z",
+      "Estadio": "Estadio BC Place, Vancouver",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537330",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "México",
+      "EquipoB": "Corea del Sur",
+      "FechaHora": "2026-06-19T01:00:00Z",
+      "Estadio": "Estadio BBVA, Monterrey",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537348",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "EE.UU.",
+      "EquipoB": "Australia",
+      "FechaHora": "2026-06-19T19:00:00Z",
+      "Estadio": "Estadio MetLife, Nueva York / Nueva Jersey",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537342",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Escocia",
+      "EquipoB": "Marruecos",
+      "FechaHora": "2026-06-19T22:00:00Z",
+      "Estadio": "Estadio NRG, Houston",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537341",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Brasil",
+      "EquipoB": "Haití",
+      "FechaHora": "2026-06-20T00:30:00Z",
+      "Estadio": "Estadio Mercedes-Benz, Atlanta",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537347",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Turquía",
+      "EquipoB": "Paraguay",
+      "FechaHora": "2026-06-20T03:00:00Z",
+      "Estadio": "Estadio Lumen Field, Seattle",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537359",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Países Bajos",
+      "EquipoB": "Suecia",
+      "FechaHora": "2026-06-20T17:00:00Z",
+      "Estadio": "Estadio Hard Rock, Miami",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537353",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Alemania",
+      "EquipoB": "Costa de Marfil",
+      "FechaHora": "2026-06-20T20:00:00Z",
+      "Estadio": "Estadio Lincoln Financial Field, Filadelfia",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537354",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Ecuador",
+      "EquipoB": "Curazao",
+      "FechaHora": "2026-06-21T00:00:00Z",
+      "Estadio": "Estadio Mercedes-Benz, Atlanta",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537360",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Túnez",
+      "EquipoB": "Japón",
+      "FechaHora": "2026-06-21T04:00:00Z",
+      "Estadio": "Estadio Arrowhead, Kansas City",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537371",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "España",
+      "EquipoB": "Arabia Saudita",
+      "FechaHora": "2026-06-21T16:00:00Z",
+      "Estadio": "Estadio Akron, Guadalajara",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537365",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Bélgica",
+      "EquipoB": "Irán",
+      "FechaHora": "2026-06-21T19:00:00Z",
+      "Estadio": "Estadio Lumen Field, Seattle",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537372",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Uruguay",
+      "EquipoB": "Cabo Verde",
+      "FechaHora": "2026-06-21T22:00:00Z",
+      "Estadio": "Estadio BMO Field, Toronto",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537366",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Nueva Zelanda",
+      "EquipoB": "Egipto",
+      "FechaHora": "2026-06-22T01:00:00Z",
+      "Estadio": "Estadio AT&T, Dallas",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537399",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Argentina",
+      "EquipoB": "Austria",
+      "FechaHora": "2026-06-22T17:00:00Z",
+      "Estadio": "Estadio Akron, Guadalajara",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537393",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Francia",
+      "EquipoB": "Irak",
+      "FechaHora": "2026-06-22T21:00:00Z",
+      "Estadio": "Estadio Azteca, Ciudad de México",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537394",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Noruega",
+      "EquipoB": "Senegal",
+      "FechaHora": "2026-06-23T00:00:00Z",
+      "Estadio": "Estadio Mercedes-Benz, Atlanta",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537400",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Jordania",
+      "EquipoB": "Argelia",
+      "FechaHora": "2026-06-23T03:00:00Z",
+      "Estadio": "Estadio AT&T, Dallas",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537405",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Portugal",
+      "EquipoB": "Uzbekistán",
+      "FechaHora": "2026-06-23T17:00:00Z",
+      "Estadio": "Estadio AT&T, Dallas",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537411",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Inglaterra",
+      "EquipoB": "Ghana",
+      "FechaHora": "2026-06-23T20:00:00Z",
+      "Estadio": "Estadio SoFi, Los Ángeles",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537412",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Panamá",
+      "EquipoB": "Croacia",
+      "FechaHora": "2026-06-23T23:00:00Z",
+      "Estadio": "Estadio NRG, Houston",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537406",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Colombia",
+      "EquipoB": "R.D. Congo",
+      "FechaHora": "2026-06-24T02:00:00Z",
+      "Estadio": "Estadio Levi's, San Francisco",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537337",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Suiza",
+      "EquipoB": "Canadá",
+      "FechaHora": "2026-06-24T19:00:00Z",
+      "Estadio": "Estadio BC Place, Vancouver",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537338",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Bosnia",
+      "EquipoB": "Qatar",
+      "FechaHora": "2026-06-24T19:00:00Z",
+      "Estadio": "Estadio NRG, Houston",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537344",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Marruecos",
+      "EquipoB": "Haití",
+      "FechaHora": "2026-06-24T22:00:00Z",
+      "Estadio": "Estadio MetLife, Nueva York / Nueva Jersey",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537343",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Escocia",
+      "EquipoB": "Brasil",
+      "FechaHora": "2026-06-24T22:00:00Z",
+      "Estadio": "Estadio Mercedes-Benz, Atlanta",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537331",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Chequia",
+      "EquipoB": "México",
+      "FechaHora": "2026-06-25T01:00:00Z",
+      "Estadio": "Estadio Akron, Guadalajara",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537332",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Sudáfrica",
+      "EquipoB": "Corea del Sur",
+      "FechaHora": "2026-06-25T01:00:00Z",
+      "Estadio": "Estadio NRG, Houston",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537355",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Ecuador",
+      "EquipoB": "Alemania",
+      "FechaHora": "2026-06-25T20:00:00Z",
+      "Estadio": "Estadio BC Place, Vancouver",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537356",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Curazao",
+      "EquipoB": "Costa de Marfil",
+      "FechaHora": "2026-06-25T20:00:00Z",
+      "Estadio": "Estadio Lincoln Financial Field, Filadelfia",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537361",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Túnez",
+      "EquipoB": "Países Bajos",
+      "FechaHora": "2026-06-25T23:00:00Z",
+      "Estadio": "Estadio Hard Rock, Miami",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537362",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Japón",
+      "EquipoB": "Suecia",
+      "FechaHora": "2026-06-25T23:00:00Z",
+      "Estadio": "Estadio NRG, Houston",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537349",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Turquía",
+      "EquipoB": "EE.UU.",
+      "FechaHora": "2026-06-26T02:00:00Z",
+      "Estadio": "Estadio MetLife, Nueva York / Nueva Jersey",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537350",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Paraguay",
+      "EquipoB": "Australia",
+      "FechaHora": "2026-06-26T02:00:00Z",
+      "Estadio": "Estadio Arrowhead, Kansas City",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537395",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Noruega",
+      "EquipoB": "Francia",
+      "FechaHora": "2026-06-26T19:00:00Z",
+      "Estadio": "Estadio Levi's, San Francisco",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537396",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Senegal",
+      "EquipoB": "Irak",
+      "FechaHora": "2026-06-26T19:00:00Z",
+      "Estadio": "Estadio Arrowhead, Kansas City",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537373",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Uruguay",
+      "EquipoB": "España",
+      "FechaHora": "2026-06-27T00:00:00Z",
+      "Estadio": "Estadio Gillette, Boston",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537374",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Cabo Verde",
+      "EquipoB": "Arabia Saudita",
+      "FechaHora": "2026-06-27T00:00:00Z",
+      "Estadio": "Estadio Gillette, Boston",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537367",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Nueva Zelanda",
+      "EquipoB": "Bélgica",
+      "FechaHora": "2026-06-27T03:00:00Z",
+      "Estadio": "Estadio Lincoln Financial Field, Filadelfia",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537368",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Egipto",
+      "EquipoB": "Irán",
+      "FechaHora": "2026-06-27T03:00:00Z",
+      "Estadio": "Estadio BMO Field, Toronto",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537413",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Panamá",
+      "EquipoB": "Inglaterra",
+      "FechaHora": "2026-06-27T21:00:00Z",
+      "Estadio": "Estadio Lumen Field, Seattle",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537414",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Croacia",
+      "EquipoB": "Ghana",
+      "FechaHora": "2026-06-27T21:00:00Z",
+      "Estadio": "Estadio BBVA, Monterrey",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537407",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Colombia",
+      "EquipoB": "Portugal",
+      "FechaHora": "2026-06-27T23:30:00Z",
+      "Estadio": "Estadio Lincoln Financial Field, Filadelfia",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537408",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "R.D. Congo",
+      "EquipoB": "Uzbekistán",
+      "FechaHora": "2026-06-27T23:30:00Z",
+      "Estadio": "Estadio BBVA, Monterrey",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537401",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Jordania",
+      "EquipoB": "Argentina",
+      "FechaHora": "2026-06-28T02:00:00Z",
+      "Estadio": "Estadio SoFi, Los Ángeles",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537402",
+      "Ronda": "Fase de Grupos",
+      "EquipoA": "Argelia",
+      "EquipoB": "Austria",
+      "FechaHora": "2026-06-28T02:00:00Z",
+      "Estadio": "Estadio Levi's, San Francisco",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537417",
+      "Ronda": "16avos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-06-28T19:00:00Z",
+      "Estadio": "Estadio Azteca, Ciudad de México",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537423",
+      "Ronda": "16avos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-06-29T17:00:00Z",
+      "Estadio": "Estadio NRG, Houston",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537415",
+      "Ronda": "16avos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-06-29T20:30:00Z",
+      "Estadio": "Estadio Levi's, San Francisco",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537418",
+      "Ronda": "16avos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-06-30T01:00:00Z",
+      "Estadio": "Estadio MetLife, Nueva York / Nueva Jersey",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537424",
+      "Ronda": "16avos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-06-30T17:00:00Z",
+      "Estadio": "Estadio Arrowhead, Kansas City",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537416",
+      "Ronda": "16avos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-06-30T21:00:00Z",
+      "Estadio": "Estadio Lumen Field, Seattle",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537425",
+      "Ronda": "16avos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-01T01:00:00Z",
+      "Estadio": "Estadio Lincoln Financial Field, Filadelfia",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537426",
+      "Ronda": "16avos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-01T16:00:00Z",
+      "Estadio": "Estadio SoFi, Los Ángeles",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537422",
+      "Ronda": "16avos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-01T20:00:00Z",
+      "Estadio": "Estadio Gillette, Boston",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537421",
+      "Ronda": "16avos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-02T00:00:00Z",
+      "Estadio": "Estadio Akron, Guadalajara",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537420",
+      "Ronda": "16avos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-02T19:00:00Z",
+      "Estadio": "Estadio BBVA, Monterrey",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537419",
+      "Ronda": "16avos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-02T23:00:00Z",
+      "Estadio": "Estadio SoFi, Los Ángeles",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537429",
+      "Ronda": "16avos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-03T03:00:00Z",
+      "Estadio": "Estadio MetLife, Nueva York / Nueva Jersey",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537428",
+      "Ronda": "16avos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-03T18:00:00Z",
+      "Estadio": "Estadio Azteca, Ciudad de México",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537427",
+      "Ronda": "16avos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-03T22:00:00Z",
+      "Estadio": "Estadio Lumen Field, Seattle",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537430",
+      "Ronda": "16avos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-04T01:30:00Z",
+      "Estadio": "Estadio BMO Field, Toronto",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537376",
+      "Ronda": "Octavos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-04T17:00:00Z",
+      "Estadio": "Estadio BBVA, Monterrey",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537375",
+      "Ronda": "Octavos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-04T21:00:00Z",
+      "Estadio": "Estadio Akron, Guadalajara",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537377",
+      "Ronda": "Octavos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-05T20:00:00Z",
+      "Estadio": "Estadio Akron, Guadalajara",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537378",
+      "Ronda": "Octavos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-06T00:00:00Z",
+      "Estadio": "Estadio BC Place, Vancouver",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537379",
+      "Ronda": "Octavos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-06T19:00:00Z",
+      "Estadio": "Estadio NRG, Houston",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537380",
+      "Ronda": "Octavos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-07T00:00:00Z",
+      "Estadio": "Estadio MetLife, Nueva York / Nueva Jersey",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537381",
+      "Ronda": "Octavos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-07T16:00:00Z",
+      "Estadio": "Estadio Levi's, San Francisco",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537382",
+      "Ronda": "Octavos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-07T20:00:00Z",
+      "Estadio": "Estadio AT&T, Dallas",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537383",
+      "Ronda": "Cuartos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-09T20:00:00Z",
+      "Estadio": "Estadio Arrowhead, Kansas City",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537384",
+      "Ronda": "Cuartos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-10T19:00:00Z",
+      "Estadio": "Estadio SoFi, Los Ángeles",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537385",
+      "Ronda": "Cuartos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-11T21:00:00Z",
+      "Estadio": "Estadio Gillette, Boston",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537386",
+      "Ronda": "Cuartos de Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-12T01:00:00Z",
+      "Estadio": "Estadio Hard Rock, Miami",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537387",
+      "Ronda": "Semifinales",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-14T19:00:00Z",
+      "Estadio": "Estadio Mercedes-Benz, Atlanta",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537388",
+      "Ronda": "Semifinales",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-15T19:00:00Z",
+      "Estadio": "Estadio AT&T, Dallas",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537389",
+      "Ronda": "Partido por Tercer Puesto",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-18T21:00:00Z",
+      "Estadio": "Estadio Hard Rock, Miami",
+      "Estado": "Pendiente"
+    },
+    {
+      "MatchID": "fd_537390",
+      "Ronda": "Final",
+      "EquipoA": "Local",
+      "EquipoB": "Visitante",
+      "FechaHora": "2026-07-19T19:00:00Z",
+      "Estadio": "Estadio MetLife, Nueva York / Nueva Jersey",
+      "Estado": "Pendiente"
+    }
+  ],
+  "RESULTADOS": [],
+  "PRONOSTICOS": [
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537327",
+      "PronosticoA": 2,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537328",
+      "PronosticoA": 1,
+      "PronosticoB": 1,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537333",
+      "PronosticoA": 3,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537345",
+      "PronosticoA": 1,
+      "PronosticoB": 2,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537334",
+      "PronosticoA": 0,
+      "PronosticoB": 2,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537339",
+      "PronosticoA": 4,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537340",
+      "PronosticoA": 0,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537346",
+      "PronosticoA": 2,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537351",
+      "PronosticoA": 4,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537357",
+      "PronosticoA": 2,
+      "PronosticoB": 1,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537352",
+      "PronosticoA": 1,
+      "PronosticoB": 2,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537358",
+      "PronosticoA": 1,
+      "PronosticoB": 1,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537369",
+      "PronosticoA": 5,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537363",
+      "PronosticoA": 2,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537370",
+      "PronosticoA": 0,
+      "PronosticoB": 3,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537364",
+      "PronosticoA": 0,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537391",
+      "PronosticoA": 3,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537392",
+      "PronosticoA": 0,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537397",
+      "PronosticoA": 4,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537398",
+      "PronosticoA": 0,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537403",
+      "PronosticoA": 3,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537409",
+      "PronosticoA": 2,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537410",
+      "PronosticoA": 0,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537404",
+      "PronosticoA": 0,
+      "PronosticoB": 2,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537329",
+      "PronosticoA": 0,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537335",
+      "PronosticoA": 0,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537336",
+      "PronosticoA": 1,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537330",
+      "PronosticoA": 1,
+      "PronosticoB": 1,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537348",
+      "PronosticoA": 0,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537342",
+      "PronosticoA": 1,
+      "PronosticoB": 1,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537341",
+      "PronosticoA": 5,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537347",
+      "PronosticoA": 0,
+      "PronosticoB": 1,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537359",
+      "PronosticoA": 3,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537353",
+      "PronosticoA": 3,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537354",
+      "PronosticoA": 2,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537360",
+      "PronosticoA": 1,
+      "PronosticoB": 2,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537371",
+      "PronosticoA": 3,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537365",
+      "PronosticoA": 0,
+      "PronosticoB": 1,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537372",
+      "PronosticoA": 2,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537366",
+      "PronosticoA": 1,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537399",
+      "PronosticoA": 4,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537393",
+      "PronosticoA": 3,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537394",
+      "PronosticoA": 0,
+      "PronosticoB": 1,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537400",
+      "PronosticoA": 0,
+      "PronosticoB": 1,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537405",
+      "PronosticoA": 3,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537411",
+      "PronosticoA": 3,
+      "PronosticoB": 1,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537412",
+      "PronosticoA": 1,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537406",
+      "PronosticoA": 3,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537337",
+      "PronosticoA": 0,
+      "PronosticoB": 1,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537338",
+      "PronosticoA": 1,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537344",
+      "PronosticoA": 0,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537343",
+      "PronosticoA": 0,
+      "PronosticoB": 3,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537331",
+      "PronosticoA": 1,
+      "PronosticoB": 2,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537332",
+      "PronosticoA": 1,
+      "PronosticoB": 1,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537355",
+      "PronosticoA": 2,
+      "PronosticoB": 3,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537356",
+      "PronosticoA": 2,
+      "PronosticoB": 2,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537361",
+      "PronosticoA": 0,
+      "PronosticoB": 2,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537362",
+      "PronosticoA": 1,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537349",
+      "PronosticoA": 0,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537350",
+      "PronosticoA": 1,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537395",
+      "PronosticoA": 0,
+      "PronosticoB": 2,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537396",
+      "PronosticoA": 1,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537373",
+      "PronosticoA": 2,
+      "PronosticoB": 2,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537374",
+      "PronosticoA": 1,
+      "PronosticoB": 1,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537367",
+      "PronosticoA": 1,
+      "PronosticoB": 1,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537368",
+      "PronosticoA": 0,
+      "PronosticoB": 1,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537413",
+      "PronosticoA": 0,
+      "PronosticoB": 2,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537414",
+      "PronosticoA": 0,
+      "PronosticoB": 1,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537407",
+      "PronosticoA": 1,
+      "PronosticoB": 1,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537408",
+      "PronosticoA": 2,
+      "PronosticoB": 2,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537401",
+      "PronosticoA": 0,
+      "PronosticoB": 4,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "MatchID": "fd_537402",
+      "PronosticoA": 0,
+      "PronosticoB": 0,
+      "FechaEnvio": "2026-06-11T01:23:29.398Z"
+    }
+  ],
+  "RANKING": [
+    {
+      "UsuarioID": "usr_admin",
+      "NombreCompleto": "Daniel Fernández",
+      "Puntos": 0,
+      "Posicion": 1,
+      "AciertosExactos": 0,
+      "AciertosGanador": 0
+    },
+    {
+      "UsuarioID": "usr_1781139495285",
+      "NombreCompleto": "Juan Bruno",
+      "Puntos": 0,
+      "Posicion": 1,
+      "AciertosExactos": 0,
+      "AciertosGanador": 0
+    }
+  ],
+  "PRONOSTICOS_ESPECIALES": []
+}

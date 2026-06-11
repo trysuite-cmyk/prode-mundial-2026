@@ -1,0 +1,6 @@
+{
+  "name": "Prode Mundial FIFA 2026",
+  "description": "Portal web interno para colaboradores para la gestión del Prode del Mundial FIFA 2026 con ranking, estadísticas, pronósticos bloqueados y sync de Sheets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
