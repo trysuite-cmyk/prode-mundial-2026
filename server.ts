@@ -2879,6 +2879,17 @@ async function syncWithGoogleSheets(): Promise<{ success: boolean; message: stri
             if (sp.EquipoB && !isPlaceholder(sp.EquipoB)) {
               db.PARTIDOS[idx].EquipoB = sp.EquipoB;
             }
+          } else {
+            // Si el partido está en Google Sheets pero no en el caché local, lo agregamos para mantenerlos alineados
+            db.PARTIDOS.push({
+              MatchID: sp.MatchID,
+              Ronda: sp.Ronda || "Fase de Grupos",
+              EquipoA: sp.EquipoA || "",
+              EquipoB: sp.EquipoB || "",
+              FechaHora: sp.FechaHora || new Date().toISOString(),
+              Estadio: sp.Estadio || "",
+              Estado: sp.Estado || "Pendiente"
+            });
           }
         }
       });
